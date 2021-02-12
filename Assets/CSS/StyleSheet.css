@@ -1,64 +1,179 @@
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    /*Afectando a la etiqueta*/
-    
-    html {
-        scroll-behavior: smooth;
-    }
-    
-    header {
-        height: 10vh;
-        background-color: #000000;
-        color: white;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 20px
-    }
-    
-    nav {
-        width: auto;
-        color: white;
-    }
-    
-    nav ul li {
-        display: inline-block;
-        list-style: none;
-    }
-    
-    nav a {
-        color: white;
-        text-decoration: none;
-        display: block;
-        padding: 20px;
-        transition: 0.3s;
-    }
-    
-    nav a:hover {
-        background-color: tomato;
-    }
-    
-    main {
-        width: 90vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    section {
-        margin-top: 20px;
-        width: 80%;
-        height: auto;
-        background-color: #FFFFFF;
-        color: rgb(0, 139, 139);
-        padding: 50px;
-        margin: 50px;
-        background-color: lightgray;
-        border-radius: 10px;
-    }
-    /*Afectando a la clase*/
-    /*Afectando ID*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* 
+Styles {
+    font-family: 'Brygada 1918', serif;
+    font-family: 'Roboto', sans-serif;
+}
+*/
+
+
+/*Afectando a la etiqueta*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Brygada 1918', serif;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p,
+a,
+table {
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+header {
+    height: 10vh;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+nav {
+    width: auto;
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: tomato;
+}
+
+main {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+    background-color: #FFFFFF;
+    color: white;
+    padding: 50px;
+    margin: 50px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+
+/*Afectando a la clase*/
+
+
+/*Afectando ID*/
+
+#wellcome {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    background-image: url(../IMG/mars.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+}
+
+#aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#bio {
+    margin: 25px;
+}
+
+#profilePic {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    background-image: url();
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.6);
+}
+
+#social {
+    margin-top: 15px;
+}
+
+#social li {
+    display: inline-block;
+}
+
+#social li a {
+    font-size: x-large;
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+#social li a.facebook :hover {
+    color: dodgerblue;
+    transition: 0.5s;
+}
+
+#social li a.instagram :hover {
+    color: hotpink;
+    transition: 0.5s;
+}
+
+#social li a.website :hover {
+    color: slateblue;
+    transition: 0.5s;
+}
+
+
+/* 
+#social li a.website : hover {
+    color: slateblue;
+    transition: 0.5s;
+}
+*/
